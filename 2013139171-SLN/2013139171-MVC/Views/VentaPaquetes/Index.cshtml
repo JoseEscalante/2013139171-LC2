@@ -1,0 +1,52 @@
+﻿@model IEnumerable<_2013139171_ENT.VentaPaquete>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ComprobantePago.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MedioPago.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paquete.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ComprobantePago.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MedioPago.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Paquete.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.VentaPaqueteID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.VentaPaqueteID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.VentaPaqueteID })
+        </td>
+    </tr>
+}
+
+</table>

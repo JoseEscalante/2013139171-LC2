@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{096807B9-E491-49BD-8F2D-731A8E156585}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_2013139171_ENT</RootNamespace>
+    <AssemblyName>2013139171-ENT</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Alimentacion.cs" />
+    <Compile Include="Entities\CalificacionHospedaje.cs" />
+    <Compile Include="Entities\CategoriaAlimentacion.cs" />
+    <Compile Include="Entities\CategoriaHospedaje.cs" />
+    <Compile Include="Entities\CategoriaTransporte.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Classification.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\ComprobantePago.cs" />
+    <Compile Include="Entities\DTO\AlimentacionDTO.cs" />
+    <Compile Include="Entities\DTO\CalificacionHospedajeDTO.cs" />
+    <Compile Include="Entities\DTO\CategoriaAlimentacionDTO.cs" />
+    <Compile Include="Entities\DTO\CategoriaHospedajeDTO.cs" />
+    <Compile Include="Entities\DTO\CategoriaTransporteDTO.cs" />
+    <Compile Include="Entities\DTO\ClienteDTO.cs" />
+    <Compile Include="Entities\DTO\ComprobantePagoDTO.cs" />
+    <Compile Include="Entities\DTO\EmpleadoDTO.cs" />
+    <Compile Include="Entities\DTO\HospedajeDTO.cs" />
+    <Compile Include="Entities\DTO\MedioPagoDTO.cs" />
+    <Compile Include="Entities\DTO\PaqueteDTO.cs" />
+    <Compile Include="Entities\DTO\ServicioHospedajeDTO.cs" />
+    <Compile Include="Entities\DTO\TipoComprobanteDTO.cs" />
+    <Compile Include="Entities\DTO\TipoHospedajeDTO.cs" />
+    <Compile Include="Entities\DTO\TipoTransporteDTO.cs" />
+    <Compile Include="Entities\DTO\TransporteDTO.cs" />
+    <Compile Include="Entities\DTO\VentaPaqueteDTO.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Hospedaje.cs" />
+    <Compile Include="Entities\MedioPago.cs" />
+    <Compile Include="Entities\Paquete.cs" />
+    <Compile Include="Entities\Persona.cs" />
+    <Compile Include="IRepositories\IAlimentacionRepository.cs" />
+    <Compile Include="IRepositories\ICalificacionHospedajeRepository.cs" />
+    <Compile Include="IRepositories\ICategoriaAlimentacionRepository.cs" />
+    <Compile Include="IRepositories\ICategoriaHospedajeRepository.cs" />
+    <Compile Include="IRepositories\ICategoriaTransporteRepository.cs" />
+    <Compile Include="IRepositories\IClienteRepository.cs" />
+    <Compile Include="IRepositories\IComprobantePagoRepository.cs" />
+    <Compile Include="IRepositories\IEmpleadoRepository.cs" />
+    <Compile Include="IRepositories\IHospedajeRepository.cs" />
+    <Compile Include="IRepositories\IMedioPagoRepository.cs" />
+    <Compile Include="IRepositories\IPaqueteRepository.cs" />
+    <Compile Include="IRepositories\IPersonaRepository.cs" />
+    <Compile Include="IRepositories\IRepository.cs" />
+    <Compile Include="IRepositories\IServicioHospedajeRepository.cs" />
+    <Compile Include="IRepositories\IServicioTuristicoRepository.cs" />
+    <Compile Include="IRepositories\ITipoComprobanteRepository.cs" />
+    <Compile Include="IRepositories\ITipoHospedajeRepository.cs" />
+    <Compile Include="IRepositories\ITipoTransporteRepository.cs" />
+    <Compile Include="IRepositories\ITransporteRepository.cs" />
+    <Compile Include="IRepositories\IUnityOfWork.cs" />
+    <Compile Include="IRepositories\IVentaPaqueteRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\ServicioHospedaje.cs" />
+    <Compile Include="Entities\ServicioTuristico.cs" />
+    <Compile Include="Entities\TipoComprobante.cs" />
+    <Compile Include="Entities\TipoHospedaje.cs" />
+    <Compile Include="Entities\TipoTransporte.cs" />
+    <Compile Include="Entities\Transporte.cs" />
+    <Compile Include="Entities\VentaPaquete.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
