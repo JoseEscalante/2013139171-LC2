@@ -38,3 +38,17 @@ C:\Users\Reyna Lucero\Desktop\COTI PROYECTO PROGRA\2013139171-LC2\2013139171-SLN
 C:\Users\Reyna Lucero\Desktop\COTI PROYECTO PROGRA\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.csproj.GenerateResource.Cache
 C:\Users\Reyna Lucero\Desktop\COTI PROYECTO PROGRA\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.dll
 C:\Users\Reyna Lucero\Desktop\COTI PROYECTO PROGRA\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.pdb
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\2013139171-PER.dll.config
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\2013139171-PER.dll
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\2013139171-PER.pdb
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\2013139171-ENT.dll
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\EntityFramework.dll
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\2013139171-ENT.pdb
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\EntityFramework.xml
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.csprojResolveAssemblyReference.cache
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\_2013139171_PER.Migrations.JOSEESCALANTE.resources
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.csproj.GenerateResource.Cache
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.dll
+C:\Users\Reyna Lucero\Documents\Visual Studio 2017\Projects\2013139171-LC2\2013139171-SLN\2013139171-PER\obj\Debug\2013139171-PER.pdb

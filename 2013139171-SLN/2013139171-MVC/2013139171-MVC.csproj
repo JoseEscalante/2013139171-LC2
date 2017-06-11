@@ -199,7 +199,6 @@
     <Compile Include="Controllers\EmpleadoesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PaquetesController.cs" />
-    <Compile Include="Controllers\PersonasController.cs" />
     <Compile Include="Controllers\ServicioHospedajesController.cs" />
     <Compile Include="Controllers\TipoComprobantesController.cs" />
     <Compile Include="Controllers\TipoHospedajesController.cs" />
